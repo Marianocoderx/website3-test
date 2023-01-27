@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Readex+Pro:wght@400;500;700&family=Righteous&display=swap');
+
+/*
+
+font-family: 'Hind', sans-serif;
+font-family: 'Readex Pro', sans-serif;
+font-family: 'Righteous', cursive;
+
+1-encabezado de la pagina
+*/
+
+*{
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: aliceblue;
+  background-color: #212529;
+}
+
+.menu-nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.menu-nav a{
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  font-family: 'Righteous', cursive;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+header h1{
+  font-family: 'Righteous', cursive;
+}
+
+header .title-detail{
+  color: blueviolet;
+}
+
+
+/*
+2- cuerpo de la pagina. primer apartado.
+*/
+
+.intro-area{
+  height: 500px;
+  width: 100%;
+
+  background-image: url(https://cdn.pixabay.com/photo/2017/01/18/21/49/singapore-1990959_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.intro-text{
+  height: 250px;
+  width: 700px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Readex Pro', sans-serif;
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+  }
+
+.intro-text h3{
+  padding-bottom: 15px;
+}
+
+.intro-text p{
+  padding-bottom: 20px;
+}
+
+.intro-button{
+  background-color: #212529;
+  border: 3px solid aliceblue;
+
+  font-family: 'Readex Pro', sans-serif;
+  color: aliceblue;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.block1-anouncement{
+  height: 300px;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 1fr;
+}
+
+.space-img1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+}
+
+.img1{
+  height: 190px;
+  width: 193px;
+  border-radius: 50%;
+}
+
+.text{
+  background-color: #212529;
+  color: aliceblue;
+  font-family: 'Readex Pro', sans-serif;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text p{
+  padding-top: 20px;
+  height: 100px;
+  width: 500px;
+}
+
+
+.block2-anouncement{
+  height: 450px;
+  width: 100%;
+  
+  background-image: url(https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.extra-cap2{
+  height: 450px;
+  width: 100%;
+  background-color: black;
+  filter: opacity(0.8);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block2-space{
+  height: 450px;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr;
+
+  color: aliceblue;
+  font-family: 'Readex Pro', sans-serif;
+}
+
+.art1,
+.art2,
+.art3{
+  display: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 100px;
+}
+
+
+.block3-anouncement{
+  height: 150px;
+  width: 100%;
+  padding-bottom: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr;
+}
+
+
+.space-img2,
+.space-img3{
+  height: 150px;
+  width: 100%;
+  background-color: #212529;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img2,
+.img3{
+  height: 100px;
+  width: 110px;
+  border-radius: 50%;
+}
+
+.text2{
+  height: 150px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  background-color: #212529;
+  color: aliceblue;
+  font-family: 'Readex Pro', sans-serif;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text2 p{
+  padding-top: 20px;
+}
+
+footer {
+  height: 140px;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+
+  font-family: 'Readex Pro', sans-serif;
+  font-size: small;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer .title-detail{
+  color: blueviolet;
+}
+
+footer h1{
+  font-family: 'Righteous', cursive;
+}
+
+@media (max-width: 768px) {
+
+  /*header*/
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*intro*/
+  .intro-text{
+    height: 250px;
+    width: 700px;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /*block1*/
+  .block1-anouncement{
+    display: block;
+  }
+  
+  .space-img1{
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .img1{
+    height: 120px;
+    width: 123px;
+  }
+
+
+  /*block2*/
+
+  .block2-anouncement,
+  .extra-cap2,
+  .block2-space{
+    height: 950px;
+    width: 100%;
+  }
+
+  .block2-space{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+  }
+
+  .art1,
+  .art2,
+  .art3{
+  
+  }
+
+  /*block3*/
+
+  /*footer*/
+
+}
+
+@media (max-width: 428px) {
+
+  /*header*/
+  header{
+    padding-top: 15px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .menu-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+  }
+  
+  .menu-nav a{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  /*intro*/
+  /*-----*/
+
+  /*block1*/
+
+  .block1-anouncement{
+    background-color: #212529;
+  }
+
+  .space-img1{
+    padding-bottom: 20px;
+  }
+
+  .text p{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;  
+    }
+
+  /*block2*/
+
+  /*block3*/
+
+  /*footer*/
+
+
+}
+
+
+
