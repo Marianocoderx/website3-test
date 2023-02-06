@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Oxygen:wght@300;700&family=Playfair+Display&family=Readex+Pro:wght@400;500;700&family=Righteous&display=swap');
+
+/*
+font-family: 'Hind', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Readex Pro', sans-serif;
+font-family: 'Righteous', cursive;
+*/
+
+*{
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.background-intro{
+  height: 550px;
+  width: 100%;
+  background: linear-gradient(to left, #00b4d8, #48cae4, #ade8f4);
+}
