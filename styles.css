@@ -16,5 +16,51 @@ font-family: 'Righteous', cursive;
 .background-intro{
   height: 550px;
   width: 100%;
-  background: linear-gradient(to left, #00b4d8, #48cae4, #ade8f4);
+  background: linear-gradient(to left, #00b4d8, #ade8f4);
 }
+
+.navbar{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  border: red solid;
+}
+
+img{
+  width: 50%;
+  border: green solid;
+}
+
+.navbar-options{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  border: green solid;
+}
+
+.navbar-options ul{
+  display: flex;
+  list-style: none;
+}
+
+ul a{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bolder;
+  color: aliceblue;
+  text-decoration: none;
+  padding-right: 15px;
+  letter-spacing: 2px;
+}
+
+.blocks{
+  height: 450px;
+  width: 100%;
+  border: red solid;
+}
+
+
+
