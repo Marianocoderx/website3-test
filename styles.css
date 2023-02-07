@@ -115,8 +115,69 @@ ul a{
 /*block2*/
 
 .main-block{
-  height: 600px;
+  height: 1000px;
   width: 100%;
   background-color: #edf6f9;
+}
+
+.services{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2em;
+  height: 400px;
+  width: 100%;
+}
+
+.s1,
+.s2,
+.s3,
+.s4{
+
+  background-color: white;
+  height: 80%;
+  width: 230px;
+}
+
+.news{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+}
+
+.block-left2,
+.block-right2{
+  height: 100%;
+  width: 40%;
+}
+
+.block-right2-1,
+.block-right2-2{
+  height: 50%;
+  width: 100%;
+}
+
+.block-left2{
+  font-family: 'Oxygen', sans-serif;
+  color: aliceblue;
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/20/13/13/samsung-605439_960_720.jpg);
+}
+
+.block-right2-1{
+  font-family: 'Oxygen', sans-serif;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/06/12/52/woman-2592247_960_720.jpg);
+}
+
+.block-right2-2{
+  font-family: 'Oxygen', sans-serif;
+  color: aliceblue;
+  background-image: url(https://cdn.pixabay.com/photo/2018/01/28/10/59/internet-3113279_960_720.jpg);
 }
 
