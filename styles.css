@@ -115,7 +115,7 @@ ul a{
 /*block2*/
 
 .main-block{
-  height: 1000px;
+  height: 1600px;
   width: 100%;
   background-color: #edf6f9;
 }
@@ -139,17 +139,25 @@ ul a{
   width: 230px;
 }
 
+.testimonies{
+  height: 1200px;
+  width: 100%;
+
+  border: red solid;
+}
+
 .news{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 500px;
+  height: 600px;
   width: 100%;
+  background: linear-gradient(to left, #00b4d8, #ade8f4);
 }
 
 .block-left2,
 .block-right2{
-  height: 100%;
+  height: 75%;
   width: 40%;
 }
 
@@ -160,9 +168,20 @@ ul a{
 }
 
 .block-left2{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
   font-family: 'Oxygen', sans-serif;
   color: aliceblue;
   background-image: url(https://cdn.pixabay.com/photo/2015/01/20/13/13/samsung-605439_960_720.jpg);
+
+  border: #edf6f9 solid 3px;
+}
+
+.block-right2{
+  border-top: #edf6f9 solid 3px;
+  border-right: #edf6f9 solid 3px;
+  border-bottom: #edf6f9 solid 3px;
 }
 
 .block-right2-1{
@@ -173,12 +192,23 @@ ul a{
   align-items: flex-end;
   justify-content: flex-end;
   background-image: url(https://cdn.pixabay.com/photo/2017/08/06/12/52/woman-2592247_960_720.jpg);
+
+  border-bottom: #edf6f9 solid 3px;
 }
 
 .block-right2-2{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
   font-family: 'Oxygen', sans-serif;
   color: aliceblue;
   background-image: url(https://cdn.pixabay.com/photo/2018/01/28/10/59/internet-3113279_960_720.jpg);
 }
 
+.block-left2-container,
+.block-right2-1-container,
+.block-right2-2-container{
+  height: 30%;
+  width: 80%;
+}
 
