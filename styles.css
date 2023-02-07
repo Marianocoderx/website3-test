@@ -49,7 +49,7 @@ ul a{
   font-weight: bolder;
   color: aliceblue;
   text-decoration: none;
-  padding-right: 15px;
+  padding-right: 20px;
   letter-spacing: 2px;
 }
 
@@ -113,8 +113,8 @@ ul a{
 
 /*block2*/
 
-.blocks2{
-  height: 300px;
+.main-block{
+  height: 600px;
   width: 100%;
   background-color: #edf6f9;
 }
