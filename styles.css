@@ -57,9 +57,40 @@ ul a{
 }
 
 .blocks{
+  padding: 2em;
   height: 450px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: red solid;
+}
+
+.block-left{
+  padding: 2em;
+  height: 100%;
+  width: 50%;
+  border: blue solid;
+}
+
+.text-container{
+  height: 100%;
+  width: 100%;
+  border: yellowgreen solid;
+}
+
+.block-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  border: blue solid;
+}
+
+.img-work{
+  width: 400px;
+  border: green solid;
 }
 
 
