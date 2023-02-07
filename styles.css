@@ -49,7 +49,8 @@ ul a{
   font-weight: bolder;
   color: aliceblue;
   text-decoration: none;
-  padding-right: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
   letter-spacing: 2px;
 }
 
